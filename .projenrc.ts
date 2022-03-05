@@ -1,8 +1,8 @@
-import { awscdk } from "projen";
+import { awscdk } from 'projen';
 const project = new awscdk.AwsCdkTypeScriptApp({
-  cdkVersion: "2.8.0",
-  defaultReleaseBranch: "main",
-  name: "lambda-docker-example",
+  cdkVersion: '2.15.0',
+  defaultReleaseBranch: 'main',
+  name: 'lambda-docker-example',
   projenrcTs: true,
 
   // deps: [],                /* Runtime dependencies of this module. */
